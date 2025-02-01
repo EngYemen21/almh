@@ -187,7 +187,7 @@ const swiper1 = new Swiper('.channelSwiper', {
 
 // video swiper
 const videoSwiper = new Swiper('.videoSwiper', {
-
+    loop: true,
     slidesPerView: 4,
     spaceBetween: 10,
 
