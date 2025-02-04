@@ -2411,9 +2411,9 @@ padding: 30px;
   flex-direction: column;
   gap: 4px;
 }
-.tt .news__text-link{
+/* .tt .news__text-link{
   height: 176px;
-}
+} */
 
 .ss{
   position: relative;
