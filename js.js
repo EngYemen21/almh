@@ -127,10 +127,42 @@ document.addEventListener('DOMContentLoaded', function () {
             nextEl: '.swiper-button-next',
             prevEl: '.swiper-button-prev',
         },
+    
+        slidesPerView: 2,
+        spaceBetween:5,
         loop: true,
-        slidesPerView: 1,
-        speed: 500,
-        effect: 'slide',
+        
+        // centerSlide: true,
+      
+
+        // centeredSlides: true,
+        autoplay: {
+            delay: 2500,
+            disableOnInteraction: true,
+        },
+        pagination: {
+            // el: '.swiper-pagination',
+            // clickable: true,
+        },
+        breakpoints: {
+            320: {
+                slidesPerView: 2,
+                spaceBetween:5
+            },
+            768: {
+                slidesPerView: 2,
+                spaceBetween:5
+            },
+            1024: {
+                slidesPerView: 2,
+                spaceBetween:5
+            }
+        },
+        // effect: 'fade',
+        // effect: 'fade',
+
+        
+        // effect: 'cube',
 
         // التهيئة الأولية
         on: {
