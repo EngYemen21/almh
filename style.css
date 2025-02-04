@@ -2391,7 +2391,7 @@ footer {
   align-items: center;
 }
 .yy{
-  max-width: 720px;
+ width: 100%;
  background: #E4F8FF ;
  
 height: 516px;
@@ -2405,7 +2405,7 @@ padding: 30px;
 }
 .tt{
   max-width: 301px;
-  margin-top: 50px;
+  margin-top: 95px;
   margin-right: 35px;
   display: flex;
   flex-direction: column;
